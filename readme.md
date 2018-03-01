@@ -54,7 +54,7 @@ cd ImtMonitor
 ```
 mv ./* /usr/monitor
 # 10表示10分钟执行一次，可以改成1-59范围的值，已经设置过无需再次设置，可以通过修改/etc/crontab文件来修改
-echo '*/10 * * * *  root cd /usr/checkOnline && sh check.sh' >> /etc/crontab
+echo '*/10 * * * *  root cd /usr/monitor && sh run.sh' >> /etc/crontab
 service cron restart
 ```
 6. 检查定时任务
