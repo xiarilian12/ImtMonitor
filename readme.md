@@ -23,9 +23,9 @@
 2. 执行下面脚本：
 
 ```
-wget https://github.com/WrBug/ImtMonitor/archive/master.zip -0 master.zip
+wget https://github.com/WrBug/ImtMonitor/archive/master.zip -O master.zip
 unzip master.zip
-cd ImtMonitor
+cd ImtMonitor-master
 ```
 
 3. 配置账号
