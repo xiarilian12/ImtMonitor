@@ -72,3 +72,6 @@ service cron restart
 ### 说明
 
 如果有多台机器，可以在多台机器上配置改脚本，避免执行脚本的机器死机，无法正常发送邮件
+
+
+[1]: https://www.token.soy
